@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Information from "./information";
+import "./styles.scss";
+import Counter from "./use/useReducer";
 
 function App() {
+  const [color, setColor] = useState("red");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" onClick={() => setColor("green")} className={color}>
+      Cambia mi color {color}
+      <Counter />
+      <Information />
     </div>
   );
 }

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Juan",
+        "lastName": "Guerrero",
+        "email": "juandeveloper2020@gmail.com",
+        "company": "Alten",
+        "description": "Hey my name is Juan and I am frontend developer"
+    },
+    {
+        "id": 2,
+        "name": "Nikola",
+        "lastName": "Niepsuj",
+        "email": "nikola.niepsuj@alten.com",
+        "company": "Alten",
+        "description": "Hey I am the person in charge of Juan"
+    },
+    {
+        "id": 3,
+        "name": "patrycja",
+        "lastName": "Rzepiela",
+        "email": "patrycja.rzepiela@alten.com>",
+        "company": "Alten",
+        "description": "Hey I am another person in hcarge of Juan in Alten"
+    }
+]
