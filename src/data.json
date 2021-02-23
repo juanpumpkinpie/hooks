@@ -4,7 +4,7 @@
         "name": "Juan",
         "lastName": "Guerrero",
         "email": "juandeveloper2020@gmail.com",
-        "company": "Alten",
+        "company": "AA",
         "description": "Hey my name is Juan and I am frontend developer"
     },
     {
@@ -12,7 +12,7 @@
         "name": "Nikola",
         "lastName": "work work",
         "email": "@none1.com",
-        "company": "Alten",
+        "company": "AAA",
         "description": "Hey I am the person in charge of Juan"
     },
     {
@@ -20,7 +20,7 @@
         "name": "patrycja",
         "lastName": "work work",
         "email": "@none2.com>",
-        "company": "Alten",
+        "company": "AAAA",
         "description": "Hey I am another person in hcarge of Juan in the company"
     }
 ]
