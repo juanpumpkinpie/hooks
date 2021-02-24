@@ -13,24 +13,37 @@ const Information = () => {
     }
   };
 
-  const result = post.every((item) => {
-    return item.name === "Juan";
-  });
-
-  console.group("aqui el console");
-  console.log(result);
-  console.groupEnd();
-
   useEffect(() => {
     getPost();
   }, []);
 
   return (
+    // <div>
+    //   {post.map((post) => (
+    //     <li key={post.id}>{post.name}</li>
+    //   ))}
+    //   <section>{result}</section>
+    // </div>
     <div>
-      {post.map((post) => (
-        <li key={post.id}>{post.name}</li>
-      ))}
-      <section>{result}</section>
+      <ul>
+        <p>Filter by Id +1</p>
+        {post
+          .filter((item) => item.id > 1)
+          .map((filtered) => (
+            <li key={filtered.id}>
+              {filtered.name}
+              {filtered.description}
+            </li>
+          ))}
+      </ul>
+      <section>
+        Result of all data here:
+        <ul>
+          {post.map((items) => (
+            <li key={items.id}>{items.name}</li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 };
