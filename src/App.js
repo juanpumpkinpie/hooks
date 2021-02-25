@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Information from "./information";
 import "./styles.scss";
+import Theme from "./theme";
 import Counter from "./use/useReducer";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       Cambia mi color {color}
       <Counter />
       <Information />
+      <Theme />
     </div>
   );
 }
