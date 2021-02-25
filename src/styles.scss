@@ -1,9 +1,22 @@
 .red {
-  background: black;
-  color: white;
+  background: "#222222";
+  color: blue;
 }
 
 .green {
-  background: grey;
+  background: "#fff";
   color: black;
+}
+
+html {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    box-sizing: border-box;
+    padding: 20px;
+  }
 }
