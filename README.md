@@ -1,3 +1,7 @@
-# Practice
+# Practice 🥳
 
--[ ] Filters and Maps, -[ ] reducer in Components -[ ] Custom Hooks [x] Provider and useContext
+> - Filters and Maps,
+> - Reducer in Components,
+> - Custom Hooks,
+> - Provider and useContext
+> - Tick Clock New Date Format in **Component Function**
