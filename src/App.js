@@ -3,6 +3,7 @@ import Information from "./information";
 import "./styles.scss";
 import Theme from "./theme";
 import Tick from "./tick";
+import Toogle from "./toogle";
 import Counter from "./use/useReducer";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Information />
       <Theme />
       <Tick />
+      <Toogle />
     </div>
   );
 }
