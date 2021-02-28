@@ -18,12 +18,6 @@ const Information = () => {
   }, []);
 
   return (
-    // <div>
-    //   {post.map((post) => (
-    //     <li key={post.id}>{post.name}</li>
-    //   ))}
-    //   <section>{result}</section>
-    // </div>
     <div>
       <ul>
         <p>Filter by Id +1</p>
