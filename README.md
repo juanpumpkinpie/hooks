@@ -6,3 +6,4 @@
 > - Provider and useContext
 > - Tick Clock New Date Format in **Component Function**
 > - LocalStorage and UseEffect (set and remove)
+> - Redux (Store, Actions , Reducer)
