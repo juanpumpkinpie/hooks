@@ -1,21 +1,19 @@
 import React, { useContext } from "react";
 import store from "./store";
+import * as actions from "./actionTypes";
+import { bugAdded, bugResolved } from "./actionCreator";
 
 const unsubscribe = store.subscribe(() => {
   console.info("store Changed", store.getState());
 });
 
-store.dispatch({
-  type: "bugAdded",
-  payload: {
-    description: "bug01",
-  },
-});
+store.dispatch(bugAdded("bug01"));
+store.dispatch(bugResolved(1));
 
 unsubscribe();
 
 store.dispatch({
-  type: "bugRemoved",
+  type: actions.BUG_REMOVE,
   payload: {
     id: 1,
   },
