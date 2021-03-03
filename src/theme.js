@@ -1,4 +1,27 @@
 import React, { useContext } from "react";
+import store from "./store";
+
+const unsubscribe = store.subscribe(() => {
+  console.info("store Changed", store.getState());
+});
+
+store.dispatch({
+  type: "bugAdded",
+  payload: {
+    description: "bug01",
+  },
+});
+
+unsubscribe();
+
+store.dispatch({
+  type: "bugRemoved",
+  payload: {
+    id: 1,
+  },
+});
+
+console.log(store.getState());
 
 const themes = {
   light: {
